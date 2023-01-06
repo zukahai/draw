@@ -1,1 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T15:44:28.490Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.0.2539 (beta) Yowser/2.5 Safari/537.36" version="20.8.2" etag="3FXe5G4JKV3gZVO--WGg" type="github"><diagram id="r0cNvt2g2xkGiBj4uoiC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-06T15:49:00.680Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.0.2539 (beta) Yowser/2.5 Safari/537.36" version="20.8.2" etag="NpXYhClFRAk1u_9Qph-F" type="github">
+  <diagram id="9KHTHigFelHnmTSZQfZH" name="Page-1">
+    <mxGraphModel dx="832" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aZqNXytCc4co6x1rCmJV-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="120" width="570" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="aZqNXytCc4co6x1rCmJV-1" value="user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aZqNXytCc4co6x1rCmJV-2" value="connect HaiNamcoin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aZqNXytCc4co6x1rCmJV-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aZqNXytCc4co6x1rCmJV-1" target="aZqNXytCc4co6x1rCmJV-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="510" as="sourcePoint" />
+            <mxPoint x="170" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aZqNXytCc4co6x1rCmJV-4" value="Transfer money to font owner" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aZqNXytCc4co6x1rCmJV-5" value="Transfer money to admin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aZqNXytCc4co6x1rCmJV-6" value="" style="endArrow=block;html=1;strokeWidth=2;rounded=0;jumpSize=10;jumpStyle=line;dashed=1;endFill=1;" edge="1" parent="1" source="aZqNXytCc4co6x1rCmJV-2" target="aZqNXytCc4co6x1rCmJV-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="165" y="270" as="sourcePoint" />
+            <mxPoint x="290" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aZqNXytCc4co6x1rCmJV-7" value="&amp;lt;intclude&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="aZqNXytCc4co6x1rCmJV-6">
+          <mxGeometry x="0.1667" y="1" relative="1" as="geometry">
+            <mxPoint x="4" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aZqNXytCc4co6x1rCmJV-8" value="" style="endArrow=block;html=1;strokeWidth=2;rounded=0;jumpSize=10;jumpStyle=line;dashed=1;endFill=1;" edge="1" parent="1" source="aZqNXytCc4co6x1rCmJV-2" target="aZqNXytCc4co6x1rCmJV-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410.1296838464839" y="258.02006169808" as="sourcePoint" />
+            <mxPoint x="490.0769823397293" y="222.18800784900918" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aZqNXytCc4co6x1rCmJV-9" value="&amp;lt;intclude&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="aZqNXytCc4co6x1rCmJV-8">
+          <mxGeometry x="0.1667" y="1" relative="1" as="geometry">
+            <mxPoint x="4" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aZqNXytCc4co6x1rCmJV-10" value="wait for successful HaiNamCoin transaction" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aZqNXytCc4co6x1rCmJV-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="aZqNXytCc4co6x1rCmJV-4" target="aZqNXytCc4co6x1rCmJV-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="540" as="sourcePoint" />
+            <mxPoint x="300" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aZqNXytCc4co6x1rCmJV-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="aZqNXytCc4co6x1rCmJV-5" target="aZqNXytCc4co6x1rCmJV-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590.0638912037521" y="222.04648419981743" as="sourcePoint" />
+            <mxPoint x="649.8371253497764" y="248.05374234052715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
