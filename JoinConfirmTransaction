@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T11:07:02.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.0.2539 (beta) Yowser/2.5 Safari/537.36" version="20.8.1" etag="v6tmKDrj4i2AWAIzv3uo" type="github"><diagram id="0Gah8Izw7C95Su_Qddfz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-06T11:09:33.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.0.2539 (beta) Yowser/2.5 Safari/537.36" version="20.8.1" etag="bB7kqh-eHuj_EY7agJOS" type="github">
+  <diagram id="Ji5Vtb5T21SLBD0Vmm9h" name="Page-1">
+    <mxGraphModel dx="979" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tG4fc_hfTURl4PUA81_B-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="840" width="450" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="tG4fc_hfTURl4PUA81_B-2" value="user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="920" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tG4fc_hfTURl4PUA81_B-6" value="Join confirm" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="910" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tG4fc_hfTURl4PUA81_B-8" value="" style="endArrow=none;html=1;rounded=0;shadow=0;labelBorderColor=none;jumpStyle=line;jumpSize=10;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tG4fc_hfTURl4PUA81_B-2" target="tG4fc_hfTURl4PUA81_B-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="1160" as="sourcePoint" />
+            <mxPoint x="50" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tG4fc_hfTURl4PUA81_B-16" value="Check the quantity" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="910" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tG4fc_hfTURl4PUA81_B-32" value="" style="endArrow=block;html=1;strokeWidth=2;rounded=0;jumpSize=10;jumpStyle=line;dashed=1;endFill=1;" edge="1" parent="1" source="tG4fc_hfTURl4PUA81_B-16" target="tG4fc_hfTURl4PUA81_B-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="693.7702871761787" y="1014.5021687002634" as="sourcePoint" />
+            <mxPoint x="606.0932767758452" y="965.6073759865808" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tG4fc_hfTURl4PUA81_B-33" value="&amp;lt;extends&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="tG4fc_hfTURl4PUA81_B-32">
+          <mxGeometry x="0.1667" y="1" relative="1" as="geometry">
+            <mxPoint x="4" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
